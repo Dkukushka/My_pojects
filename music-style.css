@@ -1,0 +1,134 @@
+.container
+{   
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: #7a0303;
+    min-height: 128px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.header__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__logo{
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav
+{
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: bold;  
+   
+}
+.nav_link{
+    margin: 0 10px;
+    vertical-align:top;
+    display :inline-block;
+    color:white;
+}
+.nav_link:hover{
+    background-color: #fff;
+    color: #d3ab08;
+    border-radius: 3px;
+}
+/*-------------------------------music-box-------------------------------------------*/
+.music-box2{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      align-content: space-around;
+   
+}
+
+button{
+    width: 60px;
+    height: 32px;
+    border-radius: 6px;
+}
+.content1{
+    width: 320px;
+   float: left;
+   margin-top: 1%;
+   border-radius: 8px;
+   background-color: #E1E6EC;
+   box-shadow: 5px 5px 11px #A2B1C6 , -5px -5px 11px  #fff  ;
+   text-align: center
+
+  
+}
+#playList{
+    width: 360px;
+    height: 550px;
+    background: #fff;
+    margin-left:10%;
+    padding: 10px;
+  float: left;
+
+    
+}
+.box1{
+    padding: 10px;
+
+}
+.box2{
+    width: 260px;
+    padding: 10px;
+    margin: auto;
+}
+.active{
+    background:red;
+}
+.poster{
+    float: left;
+    margin-top: 1%;
+    box-shadow: 5px 5px 11px #A2B1C6 , -5px -5px 11px  #fff  ;
+   
+}
+
+  /*------------------------footer-----------------------*/
+  .footer {
+    display: flex;
+    justify-content: center;
+    -moz-user-select: none; user-select: none;
+    margin-top: 7%;
+  }
+  .footer img {
+    max-width: 40%;
+    max-height: 100px;
+    transition: 1s;
+    padding: 15px;
+  }
+  .footer ul,
+  .footer li{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  .footer li{ 
+       display: inline-block;
+       width: 50px;
+       position: relative;
+       overflow: hidden;
+       }
+   .footer img:hover{
+       max-width: 50%;
+      display: block;
+        margin: 0 auto;
+        transform: scale(0.9);
+   }
